@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableRow tools:ignore="UselessParent"
+        android:padding="2dp">
+        <TextView
+            android:id="@+id/x_cor"
+            android:text="@string/x_co_ordinates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+    <TableRow
+        android:padding="2dp">
+        <TextView
+            android:id="@+id/y_cor"
+            android:text="@string/y_co_ordinates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+    <TableRow
+        android:padding="2dp">
+        <TextView
+            android:id="@+id/z_cor"
+            android:text="@string/z_co_ordinates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+</TableLayout>
