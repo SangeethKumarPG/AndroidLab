@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Email</string>
+    <string name="recipient_email_address">Recipient Email address separated by ,</string>
+    <string name="cc">cc separated by ,</string>
+    <string name="email_subject">Email subject</string>
+    <string name="message_body">Message body</string>
+    <string name="send">SEND</string>
+</resources>
